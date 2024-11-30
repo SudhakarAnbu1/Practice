@@ -1,0 +1,84 @@
+p{
+    text-align: center;
+}
+.card-container{
+    background-color: rgb(29, 9, 49);
+    border-radius: 10px;
+    border :2px solid black;
+    width: 350px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    position: relative;
+
+}
+body{
+    margin-left: 450px;
+}
+.status
+{
+    background-color: rgb(12, 235, 12);
+    border-radius: 3px;
+    color: red;
+    position: absolute;
+    top:30px;
+    left: 30px;
+}
+.online{
+    background-color: rgb(12, 235, 12);
+    color: black;
+}
+.offline
+{
+    background-color: red;
+    color: black;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid green;
+    padding: 3px;
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    gap :10px;
+}
+.message{
+
+    background-color:#0984e3;
+    border-radius: 3px;
+    border: 2px solid green;
+    padding: 10px 25px;
+    color: white;
+}
+.follow{
+    background-color:#0984e3;
+    border-radius: 3px;
+    border: 2px solid green;
+    padding: 10px 25px;
+    color: white;
+}
+button.follow.outline{
+background-color: transparent;
+}
+.skills{
+    background-color:rgb(35, 11, 59) ;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(21, 7, 36);
+    text-align: left;
+    padding: 10px;
+    
+}
+.skills ul{
+    list-style-type:none ;
+ 
+}
+.skills li{
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0 7px 7px 0;
+   
+}
